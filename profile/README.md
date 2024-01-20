@@ -1,3 +1,15 @@
+## Welcome to Spacetop Project 
+Explore our multimodal fMRI dataset, blending naturalistic methods with diverse experimental tasks.
+
+### Navigating the Repository
+* `task-repo`: The six fMRI task codes used on our "Stimulus PC".
+  * Explore READMEs for task insights.
+  * Utilize our code and cite us!
+* `d_beh`: Contains scan-related behavioral data in BIDS format, pushed directly from "Stimulus PC".
+* `spacetop-prep`: Preprocessing scripts for behavioral and fMRI data.
+   * Installable as a standalone Python package.
+   * Contribute your preprocessing or quality control tools via pull requests.
+<!--
 ## Hi there 👋
 
 Welcome to the spacetop project: A multimodal fMRI dataset unifying naturalistic processes with a rich array of experimental tasks.
@@ -9,7 +21,7 @@ Welcome to the spacetop project: A multimodal fMRI dataset unifying naturalistic
 * `spacetopprep`: Alongside, we host scripts that were part of preprocessing the data, whether it was behavioral processing, redcap organization, or fMRI preprocessing related code.
     * Spacetopprep was designed to be a standalone python package. You should be able to install and import as a library. Check out the README for setup description. 
     * If you happend to develop preprocessing code or quality control tools, please do a pull request so that everyone else can utilize your amazing efforts!
-<!--
+
 
 **Here are some ideas to get you started:**
 
