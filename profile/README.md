@@ -88,3 +88,6 @@ Cleaned behavioral data [ add link ]
 
 * `task-social`: `/dartfs-hpc/rc/lab/C/CANlab/labdata/projects/spacetop_projects_cue`
   * git repo: [https://github.com/jungheejung/cue_expectancy](https://github.com/jungheejung/cue_expectancy)
+
+* `task-narratives`: `/dartfs-hpc/rc/lab/C/CANlab/labdata/projects/spacetop_projects_narratives`
+  * git repo: [https://github.com/spatialtopology/projects_narratives](https://github.com/spatialtopology/projects_narratives)
