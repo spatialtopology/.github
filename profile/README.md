@@ -1,7 +1,7 @@
-## Welcome to Spacetop Project 
+# Welcome to Spacetop Project 
 Explore our multimodal fMRI dataset, blending naturalistic methods with diverse experimental tasks.
 
-### Navigating the Repository
+## Navigating the Repository
 * `task-repo`: The six fMRI task codes used on our "Stimulus PC".
   * Explore READMEs for task insights.
   * Utilize our code and cite us!
@@ -34,11 +34,11 @@ Welcome to the spacetop project: A multimodal fMRI dataset unifying naturalistic
 
 
 
-### Landing page
+## Landing page
 [ Data Management links ]
 @tor
  requested a list of links and paths for data management purposes. This is an extensive list and will continue to grow. Therefore, the following links will be maintained in a google docs, in conjunction to this slack message.
-#### 1. Github
+### 1. Github
 Code
 * alignvideo: https://github.com/spatialtopology/alignvideos/releases/tag/v1.0.0-stable
 * faces: https://github.com/spatialtopology/faces/releases
@@ -49,38 +49,42 @@ Code
 * Behavioral https://github.com/spatialtopology/d_beh
 * Demographic data [ Redcap ](https://redcap.dartmouth.edu)
 
-#### 2. Scan notes metadata [ google sheets link ]()
+### 2. Scan notes metadata [ google sheets link ]()
   
-#### 3. Slack channel
+### 3. Slack channel
 private channel
 #spacetop_recruitment
 
-#### 4. Google Drive [ link ]()
+### 4. Google Drive [ link ](https://drive.google.com/drive/u/0/folders/0AOBMvoHPv0xkUk9PVA)
 * updated 05/15/2023 migration from CU
 * updated 05/23/2024 migration from Dartmouth to Shared drive
   
-#### 5. Project management
-Confluence https://spacetop.atlassian.net/wiki//
-github.io spatialtopology.github.io
+### 5. Project management
+* Confluence (Deprecated) https://spacetop.atlassian.net/wiki//
+* github.io spatialtopology.github.io
 
-#### 6. Server (dartfs-hpc)
-* DATA path: /dartfs-hpc/rc/lab/C/CANlab/labdata/data/spacetop_data	
-* Brain
-  * DICOM                     /dartfs-hpc/rc/lab/C/CANlab/labdata/data/spacetop/dartmouth/sourcedata
-  * BIDS (source data)   /dartfs-hpc/rc/lab/C/CANlab/labdata/data/spacetop/dartmouth
-  * Fmriprep-processed /dartfs-hpc/rc/lab/C/CANlab/labdata/data/spacetop_data/derivatives/fmriprep/results/fmriprepp
+### 6. Server (dartfs-hpc)
+#### DATA 
+* path: `/dartfs-hpc/rc/lab/C/CANlab/labdata/data/spacetop_data`	
+* fMRI data
+  * DICOM               `/dartfs-hpc/rc/lab/C/CANlab/labdata/data/spacetop/dartmouth/sourcedata`
+  * BIDS (source data)   `/dartfs-hpc/rc/lab/C/CANlab/labdata/data/spacetop/dartmouth`
+  * Fmriprep-processed `/dartfs-hpc/rc/lab/C/CANlab/labdata/data/spacetop_data/derivatives/fmriprep/results/fmriprep`
 * Behavioral
   * Raw behavioral data https://github.com/spatialtopology/d_beh
   * Cleaned behavioral data
     * Social: https://github.com/jungheejung/social_influence_analysis/tree/main/data/dartmouth/d01_rawbeh
+    * spacetop-prep: [https://github.com/spatialtopology/spacetop-prep/tree/master/spacetop_prep/events](https://github.com/spatialtopology/spacetop-prep/tree/master/spacetop_prep/events)
 * Physio data (@Isabel)
-  * Raw Physio  /dartfs-hpc/rc/lab/C/CANlab/labdata/data/spacetop/biopac/dartmouth/rawdata
+  * Raw Physio  `/dartfs-hpc/rc/lab/C/CANlab/labdata/data/spacetop/biopac/dartmouth/rawdata`
 Cleaned behavioral data [ add link ]
 * Redcap questionnaire data 
   * Raw questionnaire (deidentified)
   * Cleaned behavioral data  [ add link ]
-PROJECTS path: Tor has suggested that we append the keyword “projects” to the individual folders. e.g. spacetop_projects_align, spacetop_projects_social. I started out with a different scheme - I will update paths to match Tor’s suggestion.
-social: /dartfs-hpc/rc/lab/C/CANlab/labdata/projects/spacetop/social
-To be changed: …CANlab/labdata/projects/spacetop_projects_social
-1st level analyses: /dartfs-hpc/rc/lab/C/CANlab/labdata/projects/spacetop/social/analysis/fmri/spm/model-01_CcEScaA/1stLevel
-2nd level analyses: /dartfs-hpc/rc/lab/C/CANlab/labdata/projects/spacetop/social/analysis/fmri/spm/model-01_CcEScaA/2ndLevel
+ 
+ 
+#### PROJECTS 
+* path: Tor has suggested that we append the keyword “projects” to the individual folders. e.g. spacetop_projects_align, spacetop_projects_social. I started out with a different scheme - I will update paths to match Tor’s suggestion.
+
+* `task-social`: `/dartfs-hpc/rc/lab/C/CANlab/labdata/projects/spacetop_projects_cue`
+  * git repo: [https://github.com/jungheejung/cue_expectancy](https://github.com/jungheejung/cue_expectancy)
