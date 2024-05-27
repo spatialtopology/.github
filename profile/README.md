@@ -1,6 +1,6 @@
 # Welcome to Spacetop Project 
 Explore our multimodal fMRI dataset, blending naturalistic methods with diverse experimental tasks.
-<img src="https://github.com/spatialtopology/.github/blob/main/profile/fig1.png" alt="Example Image" width="300">
+<img src="https://github.com/spatialtopology/.github/blob/main/profile/fig1.png" alt="Example Image" width="800">
 
 ## Navigating the Repository
 * `task-repo`: The six fMRI task codes used on our "Stimulus PC".
