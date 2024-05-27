@@ -3,7 +3,7 @@ Explore our multimodal fMRI dataset, blending naturalistic methods with diverse 
 <img src="https://github.com/spatialtopology/.github/blob/main/profile/fig1.png" alt="Example Image" width="800">
 
 ## Navigating the Repository
-* `task-repo`: The six fMRI task codes used on our "Stimulus PC".
+* `task-{repo}`: The six fMRI task codes used on our "Stimulus PC".
   * Explore READMEs for task insights.
   * Utilize our code and cite us!
 * `d_beh`: Contains scan-related behavioral data in BIDS format, pushed directly from "Stimulus PC".
@@ -39,7 +39,8 @@ Welcome to the spacetop project: A multimodal fMRI dataset unifying naturalistic
 [ Data Management links ]
 @tor
  requested a list of links and paths for data management purposes. This is an extensive list and will continue to grow. Therefore, the following links will be maintained in a google docs, in conjunction to this slack message.
-### 1. Github
+<details>
+ <summary>### 1. Github</summary>
 Code
 * alignvideo: https://github.com/spatialtopology/alignvideos/releases/tag/v1.0.0-stable
 * faces: https://github.com/spatialtopology/faces/releases
@@ -49,6 +50,7 @@ Code
 * social: https://github.com/spatialtopology/social_influence/releases/tag/v1.0.0-stable
 * Behavioral https://github.com/spatialtopology/d_beh
 * Demographic data [ Redcap ](https://redcap.dartmouth.edu)
+</details>
 
 ### 2. Scan notes metadata [ google sheets link ]()
   
