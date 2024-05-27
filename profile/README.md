@@ -1,5 +1,5 @@
-# Welcome to Spacetop Project 
-Explore our multimodal fMRI dataset, blending naturalistic methods with diverse experimental tasks.
+# Welcome to Spacetop Project 🪐🧠🧑‍🔬
+Explore our multimodal fMRI dataset, comprised of naturalistic data with diverse experimental tasks.
 <img src="https://github.com/spatialtopology/.github/blob/main/profile/fig1.png" alt="Example Image" width="800">
 
 ## Navigating the Repository
@@ -35,62 +35,98 @@ Welcome to the spacetop project: A multimodal fMRI dataset unifying naturalistic
 
 
 
-## Landing page
-[ Data Management links ]
-@tor
- requested a list of links and paths for data management purposes. This is an extensive list and will continue to grow. Therefore, the following links will be maintained in a google docs, in conjunction to this slack message.
+## Data management link
+> @tor requested a list of links and paths for data management purposes. This is an extensive list and will continue to grow. Therefore, the following links will be maintained in a google docs, in conjunction to this slack message.
+> 
+> For external users: checkout details from headers marked with "🚀".
+> 
+> For internal CANlab spacetop team members, request access if you are part of the active IRB.
+
+### 1. 🚀 Github repositories per task
 <details>
- <summary>### 1. Github</summary>
+<summary style="font-size: 1.7em; font-weight: bold;">Click to expand</summary>
 Code
-* alignvideo: https://github.com/spatialtopology/alignvideos/releases/tag/v1.0.0-stable
-* faces: https://github.com/spatialtopology/faces/releases
-* fractional: https://github.com/spatialtopology/fractional_factorials/releases/tag/v.1.0.0
-* narratives: https://github.com/spatialtopology/Narratives/releases/tag/v.1.0.0
-* shortvideos: https://github.com/spatialtopology/shortvideos/releases/tag/v1.0.0-stable
-* social: https://github.com/spatialtopology/social_influence/releases/tag/v1.0.0-stable
-* Behavioral https://github.com/spatialtopology/d_beh
-* Demographic data [ Redcap ](https://redcap.dartmouth.edu)
+<ul>
+  <li>alignvideo: <a href="https://github.com/spatialtopology/alignvideos/releases/tag/v1.0.0-stable">https://github.com/spatialtopology/alignvideos/releases/tag/v1.0.0-stable</a></li>
+  <li>faces: <a href="https://github.com/spatialtopology/faces/releases">https://github.com/spatialtopology/faces/releases</a></li>
+  <li>fractional: <a href="https://github.com/spatialtopology/fractional_factorials/releases/tag/v.1.0.0">https://github.com/spatialtopology/fractional_factorials/releases/tag/v.1.0.0</a></li>
+  <li>narratives: <a href="https://github.com/spatialtopology/Narratives/releases/tag/v.1.0.0">https://github.com/spatialtopology/Narratives/releases/tag/v.1.0.0</a></li>
+  <li>shortvideos: <a href="https://github.com/spatialtopology/shortvideos/releases/tag/v1.0.0-stable">https://github.com/spatialtopology/shortvideos/releases/tag/v1.0.0-stable</a></li>
+  <li>social: <a href="https://github.com/spatialtopology/social_influence/releases/tag/v1.0.0-stable">https://github.com/spatialtopology/social_influence/releases/tag/v1.0.0-stable</a></li>
+  <li>Behavioral: <a href="https://github.com/spatialtopology/d_beh">https://github.com/spatialtopology/d_beh</a></li>
+  <li>Demographic data: <a href="https://redcap.dartmouth.edu">https://redcap.dartmouth.edu</a></li>
+</ul>
 </details>
 
 ### 2. Scan notes metadata [ google sheets link ]()
+
   
 ### 3. Slack channel
-private channel
-#spacetop_recruitment
+<ul>
+<li>#spacetop_recruitment</li>
+<li>#spatialtopology (private channel)</li>
+<li>#spacetop_qc</li>
+</ul>
+
 
 ### 4. Google Drive [ link ](https://drive.google.com/drive/u/0/folders/0AOBMvoHPv0xkUk9PVA)
 * updated 05/15/2023 migration from CU
-* updated 05/23/2024 migration from Dartmouth to Shared drive
+* updated 05/23/2024 migration from individual google drive to Shared Google drive ([link](https://drive.google.com/drive/u/0/folders/0AOBMvoHPv0xkUk9PVA))
+* NOTE: only members who are part of the active IRB are granted access
+
   
 ### 5. Project management
 * Confluence (Deprecated) https://spacetop.atlassian.net/wiki//
-* github.io spatialtopology.github.io
+* github.io [spatialtopology.github.io](spatialtopology.github.io)
 
-### 6. Server (dartfs-hpc)
-#### DATA 
-* path: `/dartfs-hpc/rc/lab/C/CANlab/labdata/data/spacetop_data`	
-* fMRI data
-  * DICOM               `/dartfs-hpc/rc/lab/C/CANlab/labdata/data/spacetop/dartmouth/sourcedata`
-  * BIDS (source data)   `/dartfs-hpc/rc/lab/C/CANlab/labdata/data/spacetop/dartmouth`
-  * Fmriprep-processed `/dartfs-hpc/rc/lab/C/CANlab/labdata/data/spacetop_data/derivatives/fmriprep/results/fmriprep`
-* Behavioral
-  * Raw behavioral data https://github.com/spatialtopology/d_beh
-  * Cleaned behavioral data
-    * Social: https://github.com/jungheejung/social_influence_analysis/tree/main/data/dartmouth/d01_rawbeh
-    * spacetop-prep: [https://github.com/spatialtopology/spacetop-prep/tree/master/spacetop_prep/events](https://github.com/spatialtopology/spacetop-prep/tree/master/spacetop_prep/events)
-* Physio data (@Isabel)
-  * Raw Physio  `/dartfs-hpc/rc/lab/C/CANlab/labdata/data/spacetop/biopac/dartmouth/rawdata`
-Cleaned behavioral data [ add link ]
-* Redcap questionnaire data 
-  * Raw questionnaire (deidentified)
-  * Cleaned behavioral data  [ add link ]
- 
- 
-#### PROJECTS 
-* path: Tor has suggested that we append the keyword “projects” to the individual folders. e.g. spacetop_projects_align, spacetop_projects_social. I started out with a different scheme - I will update paths to match Tor’s suggestion.
 
-* `task-social`: `/dartfs-hpc/rc/lab/C/CANlab/labdata/projects/spacetop_projects_cue`
-  * git repo: [https://github.com/jungheejung/cue_expectancy](https://github.com/jungheejung/cue_expectancy)
+### 6. 🚀 Paths on discovery.dartmouth.edu (dartfs-hpc)
+<details>
+<summary style="font-size: 1.7em; font-weight: bold;">Click to expand</summary>
+<strong>DATA</strong>
+  <ul>
+    <li>path: <code>/dartfs-hpc/rc/lab/C/CANlab/labdata/data/spacetop_data</code></li>
+    <li>fMRI data</li>
+    <ul>
+      <li>DICOM: <code>/dartfs-hpc/rc/lab/C/CANlab/labdata/data/spacetop/dartmouth/sourcedata</code></li>
+      <li>BIDS (source data): <code>/dartfs-hpc/rc/lab/C/CANlab/labdata/data/spacetop/dartmouth</code></li>
+      <li>Fmriprep-processed: <code>/dartfs-hpc/rc/lab/C/CANlab/labdata/data/spacetop_data/derivatives/fmriprep/results/fmriprep</code></li>
+    </ul>
+    <li>Behavioral</li>
+    <ul>
+      <li>Raw behavioral data: <a href="https://github.com/spatialtopology/d_beh">https://github.com/spatialtopology/d_beh</a></li>
+      <li>Cleaned behavioral data</li>
+      <ul>
+        <li>Social: <a href="https://github.com/jungheejung/social_influence_analysis/tree/main/data/dartmouth/d01_rawbeh">https://github.com/jungheejung/social_influence_analysis/tree/main/data/dartmouth/d01_rawbeh</a></li>
+        <li>spacetop-prep: <a href="https://github.com/spatialtopology/spacetop-prep/tree/master/spacetop_prep/events">https://github.com/spatialtopology/spacetop-prep/tree/master/spacetop_prep/events</a></li>
+      </ul>
+    </ul>
+    <li>Physio data <a href="https://github.com/isabeln23">@isabeln23</a></li>
+    <ul>
+      <li>Raw Physio: <code>/dartfs-hpc/rc/lab/C/CANlab/labdata/data/spacetop/biopac/dartmouth/rawdata</code></li>
+    </ul>
+    <li>Redcap questionnaire data</li>
+    <ul>
+      <li>Raw questionnaire (deidentified)</li>
+      <li>Cleaned behavioral data [add link]</li>
+    </ul>
+  </ul>
 
-* `task-narratives`: `/dartfs-hpc/rc/lab/C/CANlab/labdata/projects/spacetop_projects_narratives`
-  * git repo: [https://github.com/spatialtopology/projects_narratives](https://github.com/spatialtopology/projects_narratives)
+<strong>PROJECTS</strong>
+  <ul>
+    <li><code>task-social</code>: <code>/dartfs-hpc/rc/lab/C/CANlab/labdata/projects/spacetop_projects_cue</code></li>
+   <ul>
+     <li>git repo: <a href="https://github.com/jungheejung/cue_expectancy">https://github.com/jungheejung/cue_expectancy</a></li>
+   </ul>
+    <li><code>task-narratives</code>: <code>/dartfs-hpc/rc/lab/C/CANlab/labdata/projects/spacetop_projects_narratives</code></li>
+   <ul>
+    <li>git repo: <a href="https://github.com/spatialtopology/projects_narratives">(https://github.com/spatialtopology/projects_narratives</a></li>
+   </ul>
+  </ul>
+  </details
+
+</details>
+
+
+
+
